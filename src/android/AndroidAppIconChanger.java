@@ -40,7 +40,7 @@ public class AndroidAppIconChanger extends CordovaPlugin {
                     PackageManager.DONT_KILL_APP);
 				callbackContext.success("OK");
 			} catch (Exception e) {
-				callbackContext.success("NOT_OK");
+				callbackContext.success("ERROR" + e.getMessage());
 			}		
         } else {
             callbackContext.error("Expected one non-empty string argument.");
