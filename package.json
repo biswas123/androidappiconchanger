@@ -1,0 +1,25 @@
+{
+  "name": "cordova.plugin.androidappiconchanger",
+  "version": "0.0.1",
+  "description": "Change app icon of android ",
+  "cordova": {
+    "id": "cordova.plugin.androidappiconchanger",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/biswas123/androidappiconchanger.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Biswas Khayargoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/biswas123/androidappiconchanger/issues"
+  },
+  "homepage": "https://github.com/biswas123/androidappiconchanger#readme"
+}
